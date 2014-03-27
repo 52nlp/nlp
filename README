@@ -1,0 +1,15 @@
+/tokenizer/
+some tests for the regular expression used in other projects that extract words, hashtags, urls from tweets.
+
+/RE system with DS/
+An Relation Extraction (RE) system using data automatically generated using Distant Supervision (DS).
+The system will learn to recognize four relation types, extracted from the Knowledge Base Population evaluation. All these relations hold between an entity and a filler.
+The four relation types are:
+- per:spouse: The filler is the spouse of the given entity.
+- per:employee_of: The filler indicates the organizations or geopolitical entities (goverments) of which the assigned person has been an employee or member.
+- org:country_of_headquarters: Countries in which the headquarters of the assigned organization are located. This slot must be filled with a country name.
+- org:top_members/emloyees: The persons in high-level, leading positions at the assigned organization. Although the difinition of leading position is relatively broad, all Top Member/Employee positions should imply a level of decision-making authority over the entire assigned organization.
+
+/Obesity Prediction/
+Predicting obesity in the US.
+Based on the tweets about foods from each states, rate the obesity of a state in 3 levels ("fit", "ok", and "fat").
